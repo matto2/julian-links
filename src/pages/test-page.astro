@@ -1,0 +1,33 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import BioImage from "../assets/images/julian-1.png";
+import Card from "../components/Card.astro";
+import LittleCard from "../components/LittleCard.astro";
+---
+
+<Layout>
+  <div
+    class="w-full h-screen bg-[url('/Jules-bg-blurred.jpg')] bg-no-repeat bg-cover"
+  >
+    <div class="text-center mt-8 pt-8"></div>
+    <Image
+      class="mx-auto rounded-full w-36 mt-6"
+      src={BioImage}
+      alt="picture of my face with my painting in the background"
+    />
+    <div class="text-center">
+      <LittleCard href="https://google.com/" title="Link 1" />
+    </div>
+    <div class="text-center">
+      <LittleCard href="https://google.com/" title="Link 2" />
+    </div>
+    <div class="text-center">
+      <LittleCard href="https://google.com/" title="Link 3" />
+    </div>
+
+    <!-- <ul role="list" class="mx-auto w-48">
+      <Card href="https://docs.astro.build/" title="Documentation" />
+    </ul> -->
+  </div>
+</Layout>
