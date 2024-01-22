@@ -5,17 +5,24 @@ import BioImage from "../assets/images/julian-1.png";
 import Card from "../components/Card.astro";
 import LittleCard from "../components/LittleCard.astro";
 import Insta from "../components/Insta.astro";
+import Button from "../components/Button.astro";
+import "@fontsource/dela-gothic-one";
 ---
 
 <Layout>
   <div>
-    <div class="text-center mt-8 pt-8"></div>
+    <div
+      class="text-6xl font-serif my-4 text-violet-800 pt-12 text-center font-light"
+    >
+      Julian T O’Leary
+    </div>
+
     <Image
-      class="mx-auto rounded-full w-36 mt-6"
+      class="mx-auto rounded-full w-36 mt-6 mb-4"
       src={BioImage}
       alt="picture of my face with my painting in the background"
     />
-    <div class="text-center">
+    <!-- <div class="text-center">
       <LittleCard
         href="https://www.instagram.com/_julery?igsh=MzRlODBiNWFlZA=="
         title="Link 1"
@@ -32,15 +39,33 @@ import Insta from "../components/Insta.astro";
         href="https://www.instagram.com/_julery?igsh=MzRlODBiNWFlZA=="
         title="Link 3"
       />
-    </div>
+    </div> -->
 
     <!-- <ul role="list" class="mx-auto w-48">
       <Card href="https://docs.astro.build/" title="Documentation" />
     </ul> -->
-    <div class="flex justify-evenly w-72 mx-auto">
+    <!-- <div class="flex justify-evenly w-72 mx-auto">
       <Insta />
       <Insta />
       <Insta />
+    </div> -->
+
+    <div class="mx-auto w-72">
+      <Button
+        href="https://www.instagram.com/julian______julian?igsh=bGF2YmV3ZngyMGlt&utm_source=qr"
+        title="@julian______julian"
+        logo="/Instagram_Glyph_White.svg"
+      />
+      <Button
+        href="https://www.tiktok.com/@julian_julian?_t=8jDa3BaeIpU&_r=1"
+        title="@julian_julian"
+        logo="/tiktok-icon.svg"
+      />
+      <Button
+        href="mailto:Juliantoleary@gmail.com"
+        title="Juliantoleary@gmail.com"
+        logo="/mail-icon.svg"
+      />
     </div>
   </div>
 </Layout>

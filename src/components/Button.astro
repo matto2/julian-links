@@ -1,0 +1,24 @@
+---
+interface Props {
+  title: string;
+  href: string;
+  logo: string;
+}
+
+const { href, title, logo } = Astro.props;
+---
+
+<button>
+  <a
+    href={href}
+    class="w-72 bg-red-700 hover:bg-violet-700 text-white font-medium py-2 px-3
+    rounded-3xl flex items-center my-3"
+  >
+    <div class="w-6 ml-2">
+      <img src={logo} />
+    </div><!-- Your icon SVG code here -->
+    <div>
+      <span class="text-base pl-6"> {title}</span>
+    </div>
+  </a>
+</button>
