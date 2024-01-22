@@ -5,8 +5,11 @@ export default {
 		extend: {
 			fontFamily: {
 				serif: ["Dela Gothic One"],
+				variable: ["Montserrat Variable"]
 			  },
 		},
 	},
 	plugins: [],
 }
+
+
