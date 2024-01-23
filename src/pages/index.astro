@@ -13,7 +13,7 @@ import RocketLaunch from "astro-heroicons/solid/RocketLaunch.astro";
 import Icons from "../components/Icons.astro";
 import Footer from "../components/Footer.astro";
 // Supports weights 100-900
-import "@fontsource-variable/montserrat";
+import "@fontsource-variable/red-rose";
 ---
 
 <AstroSeo
@@ -23,18 +23,19 @@ import "@fontsource-variable/montserrat";
 
 <Layout>
   <div class="flex-grow">
-    <div
-      class="text-4xl font-variable font-medium my-12 text-red-600 pt-12 text-center"
+    <h1
+      class="font-red-rose text-7xl font-variable font-bold my-8 text-red-600 pt-12 text-center"
     >
-      Julian O’Leary
-    </div>
-
-    <JulesFace client:load />
-
-    <div class="mx-auto w-72">
-      <Icons />
-    </div>
+      Julian
+    </h1>
+    Julian O’Leary
   </div>
 
-  <Footer />
+  <JulesFace client:load />
+
+  <div class="mx-auto w-72">
+    <Icons />
+  </div>
 </Layout>
+
+<Footer />

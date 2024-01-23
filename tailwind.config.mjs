@@ -5,7 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				serif: ["Dela Gothic One"],
-				variable: ["Montserrat Variable"]
+				variable: ["Red Rose Variable"]
 			  },
 		},
 	},

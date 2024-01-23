@@ -4,6 +4,8 @@ interface Props {
 }
 
 const { title } = Astro.props;
+// Supports weights 300-700
+import "@fontsource-variable/red-rose";
 ---
 
 <!doctype html>
@@ -60,5 +62,9 @@ const { title } = Astro.props;
       Bitstream Vera Sans Mono,
       Courier New,
       monospace;
+  }
+  h1 {
+    font-family: "Red Rose Variable", sans-serif;
+    font-variation-settings: "wght" 700;
   }
 </style>
