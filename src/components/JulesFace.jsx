@@ -6,7 +6,7 @@ export default function JulesFace() {
     <Fade direction="up" triggerOnce>
       <img
         src="/julian-1.jpg"
-        className="mx-auto rounded-full w-56 large:w-60 mt-6 mb-4"
+        className="mx-auto rounded-full w-56 large:w-60 mt-6 mb-1"
         alt="Julian's face"
       />
     </Fade>
