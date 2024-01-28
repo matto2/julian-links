@@ -4,7 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				variable: ["Inter"]
+				variable: ["Playfair Display"]
 			  },
 		},
 	},
