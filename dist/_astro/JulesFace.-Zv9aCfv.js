@@ -1,0 +1,1 @@
+import{j as e,F as r}from"./_astro-entry_react-awesome-reveal.rZCySiFO.js";import"./index.N54aU5bv.js";function s(){return e.jsx(r,{direction:"up",triggerOnce:!0,children:e.jsx("img",{src:"/julian-1.jpg",className:"mx-auto rounded-full w-52 mt-6 mb-4",alt:"Julian's face"})})}export{s as default};

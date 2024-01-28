@@ -4,8 +4,8 @@ interface Props {
 }
 
 const { title } = Astro.props;
-// Supports weights 300-700
-import "@fontsource-variable/red-rose";
+// Supports weights 100-900
+import "@fontsource-variable/inter";
 ---
 
 <!doctype html>
@@ -35,7 +35,7 @@ import "@fontsource-variable/red-rose";
     gtag("config", "G-R5KX3494C0");
   </script>
   <body
-    class="w-full h-screen bg-stone-800 bg-blend-multiply bg-no-repeat bg-cover bg-fixed m-0 flex flex-col min-h-screen"
+    class="w-full h-screen bg-amber-50 bg-blend-multiply bg-no-repeat bg-cover bg-fixed m-0 flex flex-col min-h-screen"
   >
     <slot />
   </body>
@@ -54,7 +54,7 @@ import "@fontsource-variable/red-rose";
   }
   html {
     font-family: system-ui, sans-serif;
-    background: rgb(60, 1, 1);
+    background: rgb(255, 251, 235);
   }
   code {
     font-family:
@@ -68,7 +68,6 @@ import "@fontsource-variable/red-rose";
       monospace;
   }
   h1 {
-    font-family: "Red Rose Variable", sans-serif;
-    font-variation-settings: "wght" 700;
+    font-family: "Inter Variable", sans-serif;
   }
 </style>

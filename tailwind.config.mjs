@@ -4,8 +4,7 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				serif: ["Dela Gothic One"],
-				variable: ["Red Rose Variable"]
+				variable: ["Inter"]
 			  },
 		},
 	},
